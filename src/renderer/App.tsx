@@ -1,6 +1,6 @@
 import './App.css';
-import './radixThemes.css';
-import '@radix-ui/themes/styles.css';
+import './radixThemes.css'; //copied from '@radix-ui/themes/styles.css'
+// import '@radix-ui/themes/styles.css'; //DOESN'T WORK
 import { Button, Theme, Text, ThemePanel } from '@radix-ui/themes';
 
 function Hello() {

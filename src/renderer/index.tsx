@@ -1,7 +1,6 @@
 import { createRoot } from 'react-dom/client';
-import { Theme, ThemePanel } from '@radix-ui/themes';
 import App from './App';
-import "@radix-ui/themes/styles.css";
+// import "@radix-ui/themes/styles.css"; //DOESN'T WORK
 
 const container = document.getElementById('root') as HTMLElement;
 const root = createRoot(container);
