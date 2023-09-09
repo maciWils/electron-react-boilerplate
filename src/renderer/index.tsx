@@ -1,9 +1,11 @@
 import { createRoot } from 'react-dom/client';
+import { Theme, ThemePanel } from '@radix-ui/themes';
 import App from './App';
+import "@radix-ui/themes/styles.css";
 
 const container = document.getElementById('root') as HTMLElement;
 const root = createRoot(container);
-root.render(<App />);
+root.render(<App/>);
 
 // calling IPC exposed from preload script
 window.electron.ipcRenderer.once('ipc-example', (arg) => {
